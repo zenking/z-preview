@@ -14,6 +14,10 @@
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17"
   },
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/zenking/z-preview.git"
+	},
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-plugin-eslint": "^3.0.0",
