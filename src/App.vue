@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld :info-data=""/>
+    <ZPreview :info-data="viewInfo"/>
   </div>
 </template>
 
@@ -11,7 +11,26 @@ export default {
   name: 'app',
   components: {
     ZPreview
-  }
+  },
+  data() {
+    return {
+       viewInfo: {
+        // 淘口令
+        code: '',
+        // 期刊主题信息
+        name: 'zhang',
+        edition: null,
+        introduction: '',
+        // 周刊背景列表
+        bgUrls: [],
+        contentUrls: [],
+        // 推荐商品列表
+        goodsList: [],
+        // 往期主题
+        journalList: []
+      }
+    }
+    }
 }
 </script>
 

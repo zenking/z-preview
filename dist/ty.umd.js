@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["z"] = factory(require("vue"));
+		exports["ty"] = factory(require("vue"));
 	else
-		root["z"] = factory(root["Vue"]);
+		root["ty"] = factory(root["Vue"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -1376,4 +1376,4 @@ Object.keys(Components).forEach(function (name) {
 
 /******/ });
 });
-//# sourceMappingURL=z.umd.js.map
+//# sourceMappingURL=ty.umd.js.map

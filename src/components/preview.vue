@@ -14,7 +14,7 @@
       <div v-for="(item,index) in infoData.bgUrls" :key="index" class="imgwrap">
         <img :src="item" class="weekly-img">
       </div>
-      <div class="push-goods-wrap">
+      <div v-if="infoData.bgUrls.length" class="push-goods-wrap">
         <div class="push-title-wrap">
           <span class="push-title">优选单品</span>
         </div>
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="push-goods-wrap past">
+      <div v-if="infoData.journalList.length" class="push-goods-wrap past">
         <div class="push-title-wrap">
           <span class="push-title">往期回顾</span>
         </div>
