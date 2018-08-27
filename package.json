@@ -1,6 +1,6 @@
 {
-  "name": "z-preview",
-  "version": "0.1.4",
+  "name": "zen-preview",
+  "version": "0.1.5",
   "private": false,
   "main": "main.js",
   "scripts": {

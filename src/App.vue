@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <ZPreview :info-data="viewInfo"/>
+    <zen-preview :info-data="viewInfo"/>
   </div>
 </template>
 
 <script>
-import ZPreview from './components/preview'
+import ZenPreview from './components/preview'
 
 export default {
   name: 'app',
   components: {
-    ZPreview
+    ZenPreview
   },
   data() {
     return {
