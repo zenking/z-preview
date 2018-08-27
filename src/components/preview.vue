@@ -63,7 +63,7 @@
 
 <script>
 export default {
-  name: 'ZPreview',
+  // name: 'ZPreview',
   props: {
     infoData: {
       type: Object,

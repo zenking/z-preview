@@ -1,8 +1,8 @@
 import Vue from "vue";
-import ZPreview from "./preview.vue"
+import ZenPreview from "./preview.vue"
 
 const Components = {
-    ZPreview
+  ZenPreview
 };
 
 Object.keys(Components).forEach(name => {
